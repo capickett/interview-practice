@@ -4,4 +4,4 @@ CFLAGS = -g -c
 all:
 
 %: %.c
-	$(CC) $< -o $@
+	$(CC) $< -o bin/$@
